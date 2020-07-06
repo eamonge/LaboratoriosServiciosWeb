@@ -1,0 +1,33 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');*/
+
+.jumbotron {
+  text-align: center;
+  background-color: rgba(0,0,0,0);
+  border: solid 2px #008089;
+/*  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);*/
+}
+
+.btn {
+    background-color: #008089;
+    margin: 5px;
+    color: white;
+/*    width: 5px;*/
+    transition: padding 300ms;
+}
+
+  .btn:hover {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+input[type="checkbox"] {
+  margin-right: 5px;
+
+}
+
+.cbLabels {
+    text-align: justify;  
+    width: 550px;
+    color: #008089;
+    font-family: 'Lato', sans-serif;
+}
