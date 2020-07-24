@@ -1,16 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
 
 /* Provide sufficient contrast against white background */
-a {
-  color: #0366d6;
+
+.jumbotron {
+    margin: 0;
+    background-color: rgba(0,0,0,0);
+    height: 450px;
 }
 
-code {
-  color: #e01a76;
+.col-md-8 {
+  padding: 0;
 }
 
-.btn-primary {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+.col-sm-4 {
+  padding: 0;
 }

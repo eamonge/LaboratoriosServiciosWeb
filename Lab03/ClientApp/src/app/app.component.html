@@ -6,26 +6,20 @@
 <body>
   <div class="container-fluid">
     <div class="row">
-      <div class=" col-md-8" style="border: solid 1px black">
+      <div class=" col-md-8">
         <div class="jumbotron" id="contentjumbotron">
           <h1 class="display-4">Ver XML</h1>
-          <div class="jumbotron" id="ShowFile">
-
-          </div>
-          <table class="table table-dark" id="demo">
-
-          </table>
-
+          <textarea class="form-control" id="ShowFile" rows="8" style="color: #272727"></textarea>
         </div>
       </div>
-      <div class=" col-sm-4" style="border: solid 1px red">
+      <div class=" col-sm-4">
         <div class="jumbotron">
           <h1 class="display-4" id="bao">Subir XML</h1>
           <hr />
           <form>
             <div class="custom-file">
-              <input type="file" class="custom-file-input" id="customFile" accept=".xml" (click)="loadXMLDoc()">
-              <label class="custom-file-label" for="customFile">Choose file</label>
+              <input type="file" class="custom-file-input" id="customFile" accept=".xml" (click)="Load()">
+              <label class="custom-file-label" for="customFile" style="color: #272727"></label>
             </div>
             <script src="../index.js"></script>
           </form>
