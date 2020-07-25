@@ -1,7 +1,3 @@
-//(function hello() {
-//  alert('Hello Cust2!!!');
-//})()
-
 function LoaderXML() {
   $(document).ready(function () {
     $('#customFile').on('change', function (evt) {
